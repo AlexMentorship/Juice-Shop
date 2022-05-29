@@ -1,0 +1,56 @@
+.intro {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: $w100;
+   height: 100vh;
+   background: url(/source/image/img-intro-back.png) center no-repeat, $gradient;
+   background-size: cover;
+}
+
+.intro-item {
+   max-width: 1000px;
+   color: $white--;
+}
+
+#intro-img {
+   bottom: 0;
+   right: 100px;
+   width: 670px;
+   filter: $filter-shadow;
+}
+
+.intro-title {
+   font-size: $title;
+   font-weight: $font-regular;
+   font-family: $font-title;
+}
+
+.intro-subtitle {
+   font-size: $subtitle;
+   font-weight: $font-regular;
+   font-family: $font-title;
+}
+
+.intro-text {
+   padding: 25px 500px 25px 0;
+   font-size: $text;
+   font-weight: $font-light;
+   line-height: 2;
+   font-family: $font-text;
+}
+
+#butn {
+   font-family: $font-text;
+   padding: 13px 60px;
+   font-size: $text;
+   font-weight: $font-light;
+   background: $white;
+   color: $orange;
+   border-radius: 0;
+   border: 0;
+   &:hover, &:focus {
+      color: $red-hover;
+      background: $yellow-hover;
+   }
+}

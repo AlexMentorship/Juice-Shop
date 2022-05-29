@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+   .section {
+      margin: 70px auto;
+   }
+
+   .intro {
+      height: 85vh;
+   }
+
+   #intro-img {
+      width: 440px;
+      top: 95px;
+      right: 20px;
+   }
+
+   .header-logo {
+      font-size: 20px;
+      i {
+         font-size: 30px;
+      }
+   }
+
+   #link, #butn, #butt, #buttn, .intro-text, .about-text, .info, .healthy-text, .header-text, .testimonial-text, .footer-text {
+      font-size: 13px;
+   }
+
+   .intro-title {
+      font-size: 55px;
+   }
+
+   .intro-subtitle, .about-header, .contact-header, .healthy-header, .header-title, .footer-title {
+      font-size: 33px;
+   }
+
+   .intro-text {
+      padding: 20px 400px 20px 0;
+   }
+   
+   .about-text, .healthy-text {
+      padding: 20px 0;
+   }
+
+   .about-item {
+      margin-left: 30px;
+   }
+
+   .contact-info {
+      width: 80%;
+      padding: 45px 45px;
+   }
+
+   #buttn {
+      margin: 45px auto 0;
+   }
+
+   .contact-header {
+      margin-bottom: 30px;
+   }
+
+   .info {
+      width: 100%;
+   }
+
+   #testimonial-img {
+      width: 170px;
+      padding: 15px;
+   }
+
+   .person-name {
+      font-size: 20px;
+      margin: 25px auto;
+      &::before {
+         top: 28px;
+         left: 0;
+         right: 0;
+         margin: 0 auto;
+         height: 1px;
+      }
+   }
+
+   .testimonial-text {
+      padding: 0;
+   }
+
+   .testimonial-item {
+      margin-top: -120px;
+   }
+
+   .footer-text {
+      padding: 0 230px 0;
+      &::before {
+         top: 70px;
+      }
+   }
+
+   .copyright {
+      font-size: 10px;
+   }
+}

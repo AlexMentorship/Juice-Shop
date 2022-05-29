@@ -1,0 +1,102 @@
+// FONT
+$font-title: 'Righteous', cursive;
+$font-text: 'Poppins', sans-serif;
+
+$font-light: 100;
+$font-regular: 300;
+$font-bold: 500;
+
+$title: 68px;
+$subtitle: 45px;
+$text: 15px;
+
+$logo-name: 25px;
+$logo-icon: 35px;
+$copyright: 14px;
+
+// COLOR
+$white: #fff;
+$white-: #f4f4f2;
+$white--: #fcfdfd;
+$white---: #fbe2cb;
+$logo-footer-color: #eef7fc;
+$shadow-color: #e3e9e9;
+
+$gray: #5a5959;
+$gray-: #5d5e5e;
+$gray--: #868684;
+$gray---: #696969;
+
+$black: #2b2b2b;
+$black-: #363635;
+
+$orange: #f57615;
+$orange-: #f67914;
+$mark-color: #f99b1d;
+
+$blue: #4a1667;
+
+$red-hover: rgb(193, 23, 4);
+$yellow-hover: rgb(255,255,0);
+$box-color: rgba(255, 0, 0, 0.9);
+$testimonial-back: rgba(255, 255, 255, 0.8);
+$filter-shadow: drop-shadow(0 0px 20px rgba(255, 255, 255, 0.5));
+$gradient: linear-gradient(180deg, rgb(255, 25, 0), rgb(255, 123, 0));
+
+$w100: 100%;
+
+// MAIN
+body {
+   padding: 0;
+   background: $white;
+   overflow-x: hidden;
+}
+
+.section {
+   width: $w100;
+   margin: 90px auto 90px;
+   background: $white-;
+}
+
+#contact-section {
+   background: $white;
+}
+
+#healthy-section {
+   background: $gradient;
+}
+
+#testimonial-section {
+   background: url(/source/image/img-4.png) center no-repeat;
+   background-size: cover;
+   width: $w100;
+   height: 100vh;
+   margin-bottom: 0;
+}
+
+#footer {
+   background: $black-;
+   margin: 0 auto;
+   padding-top: 60px;
+   padding-bottom: 10px;
+}
+
+.section-header {
+   width: $w100;
+   text-align: center;
+   padding-bottom: 180px;
+}
+
+.header-title {
+   color: $black-;
+   font-size: $subtitle;
+   font-weight: $font-regular;
+   font-family: $font-title;
+}
+
+.header-text {
+   font-family: $font-text;
+   font-size: $text;
+   font-weight: $font-light;
+   color: $gray;
+}

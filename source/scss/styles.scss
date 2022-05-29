@@ -1,0 +1,33 @@
+/* FONTS */
+/* RIGHTEOUS FONT */
+@import "https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Righteous&family=Roboto:ital,wght@0,300;1,400&display=swap";
+
+/* POPPINS FONT */
+@import "https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Poppins&family=Righteous&family=Roboto:ital,wght@0,300;1,400&display=swap";
+
+// MAIN
+@import "main.scss";
+// HEADER
+@import "header.scss";
+// INTRO
+@import "intro.scss";
+// ABOUT
+@import "about.scss";
+// CONTACT
+@import "contact.scss";
+// HEALTHY
+@import "healthy.scss";
+// TESTIMONIAL
+@import "testimonial.scss";
+// FOOTER
+@import "footer.scss";
+
+// ADAPTIVE
+// W1200
+@import "width-1200.scss";
+// W992
+@import "width-992.scss";
+// W768
+@import "width-768.scss";
+// W576
+@import "width-576.scss";

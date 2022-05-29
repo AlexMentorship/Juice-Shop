@@ -1,0 +1,48 @@
+.about-us {
+   display: flex;
+   align-items: center;
+}
+
+#about-img {
+   max-width: 160%;
+}
+
+.about-item {
+   margin-left: 190px;
+}
+
+.about-header {
+   color: $black;
+   font-size: $subtitle;
+   font-weight: $font-regular;
+   font-family: $font-title;
+}
+
+.juice-shop {
+   background: transparent;
+   color: $mark-color;
+}
+
+.about-text {
+   padding: 25px 0;
+   font-family: $font-text;
+   font-size: $text;
+   font-weight: $font-light;
+   line-height: 2;
+   color: $gray-;
+}
+
+#butt {
+   font-family: $font-text;
+   font-weight: $font-light;
+   padding: 13px 55px;
+   font-size: $text;
+   background: $orange-;
+   color: $white---;
+   border-radius: 0;
+   border: 0;
+   &:hover, &:focus {
+      color: $yellow-hover;
+      background: $red-hover;
+   }
+}
