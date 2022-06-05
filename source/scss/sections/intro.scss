@@ -1,0 +1,59 @@
+.intro {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: $w100;
+   height: $h100;
+   background: url(#{$distPath}img-intro-back.png) center no-repeat, $gradient;
+   background-size: cover;
+}
+
+.intro-item {
+   max-width: $w1000;
+   color: $white--;
+}
+
+.intro-img {
+   transform: scale(0.8,0.8);
+   &::before {
+      content: url(#{$distPath}img-intro.png);
+      filter: $filter-shadow;
+   }
+}
+
+.col-sm-6 {
+   .intro-title {
+      font-size: $title;
+      font-weight: $font-regular;
+      font-family: $font-title;
+   }
+
+   .intro-subtitle {
+      font-size: $subtitle;
+      font-weight: $font-regular;
+      font-family: $font-title;
+   }
+   
+   .intro-text {
+      padding: 2rem 2rem 2rem 0;
+      font-size: $text;
+      font-weight: $font-light;
+      line-height: 2;
+      font-family: $font-text;   
+   }
+
+   .btn {
+      font-family: $font-text;
+      font-weight: $font-light;
+      padding: $btn-padding-y $btn-padding-x;
+      font-size: $text;
+      background: $white;
+      color: $orange;
+      border-radius: 0;
+      border: 0;
+      &:hover, &:focus {
+         color: $red-hover;
+         background: $yellow-hover;
+      }
+   }
+}

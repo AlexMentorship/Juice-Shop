@@ -1,0 +1,40 @@
+.footer-header {
+   color: $logo-footer-color;
+   text-align: center;
+   .footer-title {
+      color: $white;
+      font-size: $subtitle;
+      font-weight: $font-regular;
+      font-family: $font-title;
+      .landing-page {
+         background: transparent;
+         color: $mark-color;
+      }
+   }
+      
+   .footer-text {
+      margin: 2rem auto;
+      padding: 0 25rem;
+      font-family: $font-text;
+      font-size: $text;
+      font-weight: $font-light;
+      &::before {
+         content: "";
+         display: block;
+         position: absolute;
+         width: $w100;
+         height: 0.1rem;
+         top: 5rem;
+         left: 0;
+         z-index: 1;
+         background: $gray---;
+      }
+   }
+   
+   .copyright {
+      padding-top: 1rem;
+      font-family: $font-text;
+      font-size: $copyright;
+      font-weight: $font-light;
+   }
+}

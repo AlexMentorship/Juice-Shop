@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+   .section {
+      margin: 40px auto;
+   }
+
+   .header-logo {
+      font-size: 14px;
+      i {
+         font-size: 22px;
+      }
+   }
+
+   .intro {
+      height: 60vh;
+   }
+
+   .intro-text {
+      padding: 10px 225px 10px 0;
+   }
+
+   #intro-img {
+      width: 280px;
+      top: 75px;
+      right: 15px;
+   }
+
+   .intro-title {
+      font-size: 37px;
+   }
+
+   #link, #butn, #butt, #buttn, .intro-text, .about-text, .info, .healthy-text, .header-text, .testimonial-text, .footer-text {
+      font-size: 9px;
+   }
+
+   .intro-subtitle, .about-header, .contact-header, .healthy-header, .header-title, .footer-title {
+      font-size: 18px;
+   }
+
+   .about-text {
+      padding: 10px 0;
+   }
+
+   .healthy-text {
+      padding: 10px 10px 10px 0;
+   }
+
+   .about-item {
+      margin: 0 auto;
+   }
+
+   #about-img {
+      max-width: 150%;
+   }
+
+   .contact-header {
+      margin-bottom: 15px;
+   }
+
+   .contact-info {
+      padding: 30px 30px;
+   }
+
+   .info {
+      padding: 5px 0 5px 5px;
+   }
+
+   .message {
+      padding: 15px 0 15px 5px;
+   }
+
+   #buttn {
+      padding: 10px 45px;
+      margin: 25px auto 0;
+      width: auto;
+   }
+
+   .section-header {
+      padding-bottom: 110px;
+   }
+
+   .testimonial {
+      padding: 30px 10px;
+   }
+
+   .testimonial-item {
+      margin-top: -97px;
+   }
+
+   .testimonial-text {
+      padding: 10px 0;
+   }
+
+   #testimonial-img {
+      width: 135px;
+   }
+
+   .person-name {
+      margin: 25px auto;
+      &::before {
+         left: 0;
+         right: 0;
+         margin: 0 auto;
+      }
+   }
+
+   #footer {
+      padding: 30px 0 5px;
+   }
+
+   .footer-text {
+      padding: 0 100px;
+      &::before {
+         top: 36px;
+      }
+   }
+
+   .copyright {
+      padding-top: 0;
+      font-size: 8px;
+   }
+}
