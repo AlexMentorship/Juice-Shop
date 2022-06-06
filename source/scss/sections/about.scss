@@ -1,0 +1,42 @@
+.about-img {
+   &::before {
+      content: url(#{$distPath}img-1.png);
+   }
+}
+
+.col-sm-5 {
+   .about-header {
+      color: $black;
+      font-size: $subtitle;
+      font-weight: $font-regular;
+      font-family: $font-title;
+      .juice-shop {
+         background: transparent;
+         color: $mark-color;
+      }
+   }
+   
+   .about-text {
+      padding: 2rem 0;
+      font-family: $font-text;
+      font-size: $text;
+      font-weight: $font-light;
+      line-height: 2;
+      color: $gray-;
+   }
+
+   .btn {
+      font-family: $font-text;
+      font-weight: $font-light;
+      padding: $btn-padding-y $btn-padding-x;
+      font-size: $text;
+      background: $orange-;
+      color: $white---;
+      border-radius: 0;
+      border: 0;
+      &:hover, &:focus {
+         color: $yellow-hover;
+         background: $red-hover;
+      }     
+   }
+}

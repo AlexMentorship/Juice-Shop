@@ -1,0 +1,59 @@
+// FONT
+$font-title: 'Righteous', cursive;
+$font-text: 'Poppins', sans-serif;
+
+$font-light: 100;
+$font-regular: 300;
+$font-bold: 500;
+
+$title: 3.2rem;
+$subtitle: 2.1rem;
+$text: 0.8rem;
+
+$logo-name: 1.5rem;
+$logo-icon: 2rem;
+$copyright: 0.7rem;
+
+// COLOR
+$white: #fff;
+$white-: #f4f4f2;
+$white--: #fcfdfd;
+$white---: #fbe2cb;
+$logo-footer-color: #eef7fc;
+$shadow-color: #e3e9e9;
+
+$gray: #5a5959;
+$gray-: #5d5e5e;
+$gray--: #868684;
+$gray---: #696969;
+
+$black: #2b2b2b;
+$black-: #363635;
+
+$orange: #f57615;
+$orange-: #f67914;
+$mark-color: #f99b1d;
+
+$blue: #4a1667;
+
+$red-hover: rgb(193, 23, 4);
+$yellow-hover: rgb(255,255,0);
+$box-color: rgba(255, 0, 0, 0.9);
+$testimonial-back: rgba(255, 255, 255, 0.8);
+$filter-shadow: drop-shadow(0 0px 20px rgba(255, 255, 255, 0.5));
+$gradient: linear-gradient(180deg, rgb(255, 25, 0), rgb(255, 123, 0));
+
+// WIDTH
+$w100: 100%;
+$w1000: 1000px;
+
+// HEIGHT
+$h100: 100vh;
+
+// PATH
+$distPath: "/dist/image/";
+
+// VARIABLES OVERWRITE
+// BUTTONs
+$btn-padding-y: 1rem;               
+$btn-padding-x: 4rem;

@@ -3,100 +3,131 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="./source/css/styles.min.css">
-
-   <!-- BOOTSTRAP -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="./dist/css/styles.min.css">
 
    <!-- FONTAWESOME -->
    <script src="https://kit.fontawesome.com/c2aec82d5f.js" crossorigin="anonymous"></script>
    <title>Juice Shop</title>
 </head>
-
 <body>
 
 <!-- HEADER -->
 <header class="header position-absolute">
    <div class="container">
       <div class="header-inner mx-auto">
-         <div class="header-logo"><i class="fa-solid fa-lemon pe-1"></i>MacJuice</div>
-         <nav class="nav">
-            <a class="nav-link py-2 px-4" id="link" href="#about">About</a>
-            <a class="nav-link py-2 px-4" id="link" href="#contact-section">Contact Us</a>
-            <a class="nav-link py-2 px-4" id="link" href="#">Sign Up</a>
+         <!-- LOGO -->
+         <nav class="navbar">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                  <div class="header-logo d-inline-block align-text-top"><i class="fa-solid fa-lemon pe-1"></i>MacJuice</div>
+               </a>
+            </div>
+         </nav>
+         <!-- NAVBAR -->
+         <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+               <button class="navbar-toggler bg-warning.bg-gradient text-white bg-opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="#about">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="#contact">Contact Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link py-2 px-4" href="#">Sign Up</a>
+                     </li>
+                  </ul>
+              </div>
+            </div>
          </nav>
       </div>
    </div>
 </header>
 
 <!-- INTRO -->
-<div class="intro">
+<div class="intro img-fluid">
    <div class="container">
-      <div class="intro-item mx-auto">
-         <div><h1 class="intro-title">Juice shop</h1></div>
-         <div><h3 class="intro-subtitle">Landing page 2019</h3></div>
-         <div><p class="intro-text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p></div>
-         <a href="#" class="btn" id="butn">Read More</a>
-         <img src="./source/image/img-intro.png" class="img-fluid position-absolute" id="intro-img" alt="">
+      <div class="row intro-item mx-auto align-items-center">
+         <div class="col-sm-6">
+            <div><h1 class="intro-title">Juice shop</h1></div>
+            <div><h3 class="intro-subtitle">Landing page 2019</h3></div>
+            <div><p class="intro-text">ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p></div>
+            <a href="#" class="btn">Read More</a>
+         </div>
+         <div class="col-sm-5">
+            <div class="intro-img img-fluid"></div>
+         </div>
       </div>
    </div>
 </div>
 
 <!-- ABOUT US -->
-<section class="section" id="about-section">
-   <div class="container" id="about">
-      <div class="about-us">
-         <div class="about-img">
-            <img src="./source/image/img-1.png" class="img-fluid" id="about-img" alt="">
+<section class="section">
+   <div class="container-fluid" id="about">
+      <div class="row align-items-center">
+         <div class="col-sm-6">
+            <div class="about-img img-fluid"></div>
          </div>
-         <div class="about-item">
+         <div class="col-sm-5">
             <div><h4 class="about-header">About us our <mark class="juice-shop">Juice shop</mark><h4></div>
             <div><p class="about-text">Lorem Ipsum is simply dummy text of the printing andtypesetting industry.Lorem Ipsum has been the industry's standard dummy text ever sincethe 1500s, when an unknown printer took a galley of type</p></div>
-            <a href="#" class="btn" id="butt">Read More</a>
+            <a href="#" class="btn">Read More</a>
          </div>
       </div>
    </div>
 </section>
 
 <!-- CONTACT US -->
-<section class="section" id="contact-section">
+<section class="contact-section" id="contact">
    <div class="container">
-      <div class="contact-us">
-         <div class="contact-item">
+      <div class="row align-items-center">
+         <div class="col-sm">
             <div><h3 class="contact-header">Contact us</h3></div>
             <form class="contact-info mx-auto" action="/" method="post">
-               <input class="info" type="name" name="name" placeholder="Name">
-               <input class="info" type="email" name="email" placeholder="Email">
-               <input class="info" type="phone" name="phone" placeholder="Phone number">
-               <input class="info message" type="message" name="message" placeholder="Message">
-               <button class="btn" id="buttn">Send</button>
-            </form>
+               <div class="mb-4">
+                  <input class="form-control info" type="name" name="name" placeholder="Name">
+               </div>
+               <div class="mb-4">
+                  <input class="form-control info" type="email" name="email" placeholder="Email">
+               </div>
+               <div class="mb-4">
+                  <input class="form-control info" type="phone" name="phone" placeholder="Phone number">
+               </div>
+               <div class="mb-5">
+                  <textarea class="form-control message" rows="3" placeholder="Message"></textarea>
+               </div>
+               <button type="send" class="btn">Send</button>
+            </form>            
          </div>
-         <div class="contact-item">
-            <img src="./source/image/img-2.png" class="img-fluid" id="contact-img" alt="">
+         <div class="col-sm">
+            <div class="contact-img img-fluid"></div>
          </div>
       </div>
    </div>
 </section>
 
 <!-- HEALTHY -->
-<section class="section" id="healthy-section">
-   <div class="container" id="healthy">
-      <div class="healthy">
-         <div class="healthy-item">
+<section class="healthy-section">
+   <div class="container">
+      <div class="row align-items-center healthy-item">
+         <div class="col-sm">
             <div><h4 class="healthy-header">Healthy bhi tasty bhi</h4></div>
             <div><p class="healthy-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since theLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p></div>
-            <a href="#" class="btn" id="butn">See More</a>
+            <a href="#" class="btn healthy-btn">See More</a>
          </div>
-         <div class="healthy-item">
-            <img src="./source/image/img-3.png" class="img-fluid" id="healthy-img" alt="">
+         <div class="col-sm">
+            <div class="healthy-img img-fluid"></div>
          </div>
       </div>
    </div>
 </section>
 
 <!-- TESTIMONIAL -->
-<section class="section" id="testimonial-section">
+<section class="testimonial-section img-fluid">
    <div class="container">
       <div class="section-header">
          <div><h4 class="header-title">Testimonial</h4></div>
@@ -104,7 +135,7 @@
       </div>
       <div class="testimonial">
          <div class="testimonial-item">
-            <img src="./source/image/img-person.png" class="img-fluid" id="testimonial-img" alt="">
+            <div class="testimonial-img img-fluid"></div>
             <div><h6 class="person-name position-relative">Mark Due</h6></div>
             <div><p class="testimonial-text">t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposedt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p></div>
          </div>
@@ -113,20 +144,18 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="section" id="footer">
+<footer>
    <div class="container">
       <div class="footer-header">
          <div><h4 class="footer-title">Free Multipurpose Responsive <mark class="landing-page">Landing Page 2019</mark></h4></div>
-         <div><p class="footer-text position-relative">Lorem Ipsum is simply dummy text of the printing and typesetting 
-            industry. dummy text ever since the</p></div>
+         <div><p class="footer-text position-relative">Lorem Ipsum is simply dummy text of the printing and typesetting industry. dummy text ever since the</p></div>
          <div class="copyright">Copyright 2019 All Right Reserved By Free  html Templates</div>
       </div>
    </div>
 </footer>
 
 <!-- JS BOOTSTRAP -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="./dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>

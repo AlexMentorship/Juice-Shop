@@ -1,0 +1,68 @@
+.contact-img {
+   &::before {
+      content: url(#{$distPath}img-2.png); 
+   }
+}
+
+.contact-header {
+   margin-bottom: 2.5rem;
+   color: $black;
+   font-size: $subtitle;
+   font-weight: $font-regular;
+   font-family: $font-title;
+   text-align: center;
+}
+
+.contact-info {
+   display: flex;
+   flex-direction: column;
+   padding: 4rem 3rem;
+   background: $white-;
+   border-radius: 2rem;
+   font-family: $font-text;
+   .info {
+      padding: 0.8rem 0 0.8rem 0.8rem;
+      font-size: $text;
+      font-weight: $font-light;
+      cursor: pointer;
+      background: $white;
+      color: $gray--;
+      border: none;
+      border-radius: 0;
+      &:hover, &:focus {
+         color: $black;
+         background: $white;
+         outline: 0;
+         box-shadow: 0 0 0 0.1px $box-color;
+      }
+   }
+   
+   .message {
+      padding: 3rem 0 0 0.8rem;
+      border-radius: 0;
+      border: none;
+      resize: none;
+      &:hover, &:focus {
+         color: $black;
+         background: $white;
+         outline: 0;
+         box-shadow: 0 0 0 0.1px $box-color;
+      }
+   }
+
+   .btn {
+      margin: 0 auto;
+      padding: $btn-padding-y $btn-padding-x;
+      font-size: $text;
+      font-weight: $font-light;
+      background: $orange-;
+      color: $white;
+      border-radius: 0;
+      border: 0;
+      text-transform: uppercase;
+      &:hover, &:focus {
+         color: $yellow-hover;
+         background: $red-hover;
+      }
+   }
+}

@@ -5,29 +5,35 @@
 /* POPPINS FONT */
 @import "https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Poppins&family=Righteous&family=Roboto:ital,wght@0,300;1,400&display=swap";
 
+// BOOTSTRAP
+@import "./bootstrap/bootstrap";
+
+// VARIABLES
+@import "variables";
+
 // MAIN
-@import "main.scss";
+@import "main";
 // HEADER
-@import "header.scss";
+@import "./sections/header";
 // INTRO
-@import "intro.scss";
+@import "./sections/intro";
 // ABOUT
-@import "about.scss";
+@import "./sections/about";
 // CONTACT
-@import "contact.scss";
+@import "./sections/contact";
 // HEALTHY
-@import "healthy.scss";
+@import "./sections/healthy";
 // TESTIMONIAL
-@import "testimonial.scss";
+@import "./sections/testimonial";
 // FOOTER
-@import "footer.scss";
+@import "./sections/footer";
 
 // ADAPTIVE
 // W1200
-@import "width-1200.scss";
+// @import "./adaptive/width-1200";
 // W992
-@import "width-992.scss";
+// @import "./adaptive/width-992";
 // W768
-@import "width-768.scss";
+// @import "./adaptive/width-768";
 // W576
-@import "width-576.scss";
+// @import "./adaptive/width-576";

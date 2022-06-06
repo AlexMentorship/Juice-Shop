@@ -1,0 +1,41 @@
+.healthy-img {
+   transform: scale(0.9,0.9);
+   padding: 6rem 0;
+   &::before {
+      content: url(#{$distPath}img-3.png);   
+   }
+}
+
+.healthy-item {
+   color: $white;
+}
+
+.col-sm {
+   .healthy-header {
+      font-size: $subtitle;
+      font-weight: $font-regular;
+      font-family: $font-title;
+   }
+
+   .healthy-text {
+      padding: 2rem 0;
+      font-size: $text;
+      font-weight: $font-light;
+      font-family: $font-text;
+   }
+
+   .healthy-btn {
+      font-family: $font-text;
+      font-weight: $font-light;
+      padding: $btn-padding-y $btn-padding-x;
+      font-size: $text;
+      background: $white;
+      color: $orange;
+      border-radius: 0;
+      border: 0;
+      &:hover, &:focus {
+         color: $red-hover;
+         background: $yellow-hover;
+      }
+   }
+}
